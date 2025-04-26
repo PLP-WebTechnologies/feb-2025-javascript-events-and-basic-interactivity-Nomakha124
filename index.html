@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎉 Welcome to the JavaScript Playground! 🎉</h1>
+
+  <!-- Button -->
+  <button id="magicButton">Click Me!</button>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img id="galleryImage" src="https://via.placeholder.com/300x200?text=Image+1" alt="Gallery Image">
+    <br>
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tabButton" data-tab="tab1">Tab 1</button>
+    <button class="tabButton" data-tab="tab2">Tab 2</button>
+    <button class="tabButton" data-tab="tab3">Tab 3</button>
+
+    <div id="tab1" class="tabContent">Content for Tab 1</div>
+    <div id="tab2" class="tabContent hidden">Content for Tab 2</div>
+    <div id="tab3" class="tabContent hidden">Content for Tab 3</div>
+  </div>
+
+  <!-- Form -->
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Name" required><br>
+    <input type="email" id="email" placeholder="Email" required><br>
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required><br>
+    <button type="submit">Submit</button>
+    <div id="formFeedback"></div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
